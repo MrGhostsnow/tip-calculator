@@ -1,0 +1,45 @@
+.container_Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0em ;
+    margin: 0;
+}
+
+.card_Home {
+    display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 15px;
+  margin: 0px;
+  height: 30em;
+  width: 800px;
+  transition: all 0.3s ease-out;
+  background-color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 420px) {
+    .card_Home {
+      width: 230px;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 35%;
+  }
+
+  .title_btn {
+    display: flex;
+    margin-left: 1em;
+    color: hsl(186, 14%, 43%);
+    font-family: 'Space Mono', monospace;
+    font-size: small;
+  }

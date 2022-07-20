@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.form_Bill {
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+}
+
+.form_Bill form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_Bill label {
+    display: flex;
+    color: hsl(186, 14%, 43%);
+    font-family: 'Space Mono', monospace;
+}
+
+.form_Bill input {
+    padding: 0.5em;
+    width: 13em;
+    background-color:hsl(189, 41%, 97%);
+    margin-left: -1em;
+    border: none;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+    font-size: larger;
+}
+
+.form_Bill img {
+    position: relative;
+    right: -1em;
+    top: 0.2em;
+}
+
+
+.form_Costum input {
+    padding: 0.9em 0;
+    width: 6em;
+    border: none;
+    border-radius: 0.8em;
+    margin-top: 0.5em;
+    font-size: large;
+    cursor: pointer;
+    background-color:hsl(189, 41%, 97%);
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+
+}

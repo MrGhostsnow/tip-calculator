@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.btn_Tip {
+    padding: 0.8em 2em;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Mono', monospace;
+    border: none;
+    border-radius: 0.8em;
+    margin-top: 0.5em;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn_Tip:active {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.btn_Reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 15em;
+    padding: 0.5em 6em;
+    background-color:hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 0.5em;
+    font-family: 'Space Mono', monospace;
+    font-size: large;
+    cursor: pointer;
+}
