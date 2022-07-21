@@ -5,7 +5,7 @@ function Form(props) {
     <div className={props.className}>
     <form>
     <div>   
-        <label for={props.for}>
+        <label>
             {props.label}
         </label>
         <img src={props.src} alt="" />

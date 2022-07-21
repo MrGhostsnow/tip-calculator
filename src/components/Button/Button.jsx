@@ -2,14 +2,15 @@ import './Button.css'
 
 function Button(props) {
   return (
-    <div>
+    <>
         <button
         className={props.className}
         onClick={props.onClick}
-        type={props.type}>
+        type={props.type}
+        value={props.value}>
             {props.children}
         </button>
-    </div>
+    </>
   )
 }
 
