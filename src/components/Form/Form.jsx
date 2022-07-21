@@ -1,24 +1,23 @@
-import './Form.css'
+import "./Form.css";
 
 function Form(props) {
   return (
     <div className={props.className}>
-    <form>
-    <div>   
-        <label>
-            {props.label}
-        </label>
-        <img src={props.src} alt="" />
-        <input 
+      <form>
+        <div>
+          <label>{props.label}</label>
+          <img src={props.src} alt="" />
+          <input
             type={props.type}
             id={props.id}
             onChange={props.onChange}
-            value={props.value} 
-            placeholder={props.placeholder}/>
+            value={props.value}
+            placeholder={props.placeholder}
+          />
+        </div>
+      </form>
     </div>
-    </form>
-    </div>
-  )
+  );
 }
 
-export default Form
+export default Form;

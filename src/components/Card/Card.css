@@ -1,19 +1,19 @@
 .container_Card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0em ;
-    margin: 8em 0 0 0 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0em;
+  margin: 8em 0 0 0;
 }
 
-.container_Card img{
+.container_Card img {
   margin-top: -2em;
   margin-bottom: 2em;
 }
 
 .card_Home {
-    display: flex;
+  display: flex;
   /* justify-content: center; */
   flex-direction: column;
   border-radius: 20px;
@@ -29,14 +29,14 @@
 }
 
 @media screen and (max-width: 880px) {
-    .card_Home {
-      width: 450px;
-      height: 65em;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+  .card_Home {
+    width: 450px;
+    height: 65em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+}
 
 @media screen and (max-width: 500px) {
   .card_Home {
@@ -44,17 +44,17 @@
   }
 }
 
-  .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 35%;
-  }
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 35%;
+}
 
-  .title_btn {
-    display: flex;
-    margin-left: 1em;
-    color: hsl(186, 14%, 43%);
-    font-family: 'Space Mono', monospace;
-    font-size: small;
-  }
+.title_btn {
+  display: flex;
+  margin-left: 1em;
+  color: hsl(186, 14%, 43%);
+  font-family: "Space Mono", monospace;
+  font-size: small;
+}

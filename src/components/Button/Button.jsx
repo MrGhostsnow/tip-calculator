@@ -1,17 +1,18 @@
-import './Button.css'
+import "./Button.css";
 
 function Button(props) {
   return (
     <>
-        <button
+      <button
         className={props.className}
         onClick={props.onClick}
         type={props.type}
-        value={props.value}>
-            {props.children}
-        </button>
+        value={props.value}
+      >
+        {props.children}
+      </button>
     </>
-  )
+  );
 }
 
-export default Button
+export default Button;

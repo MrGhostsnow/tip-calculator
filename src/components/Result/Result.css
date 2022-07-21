@@ -1,108 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
 
 .container_Result {
-    width: 100%;
-    display: flex;
-    /* position: absolute; */
-    /* left: 38em; */
-    
+  width: 100%;
+  display: flex;
+  /* position: absolute; */
+  /* left: 38em; */
 }
 
 .card_Result {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
-    padding: 5em 4em;
-    background-color: hsl(183, 100%, 15%);
-    border-radius: 2em;
-    margin-left: 21em;
-    margin-top: -29em;
-    margin-bottom: 5em;
-    margin-right: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 5em 4em;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 2em;
+  margin-left: 21em;
+  margin-top: -29em;
+  margin-bottom: 5em;
+  margin-right: 2em;
 }
 
 @media screen and (max-width: 880px) {
-    .card_Result{
-        width: 50%;
-        margin-left: 0em;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        margin-right: 0em;
-        justify-content: center;
-        align-items: center;
-        padding: 2em 6em;
-        }
-    .container_Result {
-        justify-content: center;
-    }
-    .amount {
-        margin-top: 2em;
-    }
+  .card_Result {
+    width: 50%;
+    margin-left: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 6em;
+  }
+  .container_Result {
+    justify-content: center;
+  }
+  .amount {
+    margin-top: 2em;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .card_Result {
-        width: 35%;
-    }
-    .amount {
-        margin-left: 2em;
-    }
-    .total {
-        margin-left: 2em;
-    }
+  .card_Result {
+    width: 35%;
+  }
+  .amount {
+    margin-left: 2em;
+  }
+  .total {
+    margin-left: 2em;
+  }
 }
 
 .amount {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -3em;
-    left: -6.5em;
-    color: hsl(0, 0%, 100%);
-    font-family: 'Space Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -3em;
+  left: -6.5em;
+  color: hsl(0, 0%, 100%);
+  font-family: "Space Mono", monospace;
 }
 
 .amount span {
-    display: flex;
-    flex-direction: column;
-    color: hsl(185, 41%, 84%);
+  display: flex;
+  flex-direction: column;
+  color: hsl(185, 41%, 84%);
 }
 
 .total {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -1em;
-    left: -6.5em;
-    color: hsl(0, 0%, 100%);
-    font-family: 'Space Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -1em;
+  left: -6.5em;
+  color: hsl(0, 0%, 100%);
+  font-family: "Space Mono", monospace;
 }
 
 .total span {
-    display: flex;
-    flex-direction: column;
-    color: hsl(185, 41%, 84%);
+  display: flex;
+  flex-direction: column;
+  color: hsl(185, 41%, 84%);
 }
 
 .value_Amount {
-    display: flex;
-    position: relative;
-    right: -5.5em;
-    top: -1.3em;
-    font-family: 'Space Mono', monospace;
-    color:  hsl(172, 67%, 45%);
-    font-size: 2.5em;
+  display: flex;
+  position: relative;
+  right: -5.5em;
+  top: -1.3em;
+  font-family: "Space Mono", monospace;
+  color: hsl(172, 67%, 45%);
+  font-size: 2.5em;
 }
 
 .value_Total {
-    display: flex;
-    position: relative;
-    right: -5.5em;
-    top: -1.3em;
-    font-family: 'Space Mono', monospace;
-    color:  hsl(172, 67%, 45%);
-    font-size: 2.5em;
+  display: flex;
+  position: relative;
+  right: -5.5em;
+  top: -1.3em;
+  font-family: "Space Mono", monospace;
+  color: hsl(172, 67%, 45%);
+  font-size: 2.5em;
 }
