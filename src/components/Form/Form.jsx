@@ -5,7 +5,7 @@ function Form(props) {
     <div className={props.className}>
       <form>
         <div>
-          <label>{props.label}</label>
+          <label htmlFor={props.id}>{props.label}</label>
           <img src={props.src} alt="" />
           <input
             type={props.type}

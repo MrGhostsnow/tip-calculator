@@ -30,13 +30,13 @@ function Card() {
   };
 
   const handleReset = () => {
-    window.location.reload(true);
+    setBill(0);
+    setTipValue(0);
+    setNumberOfPeople(0);
   };
 
   const tip = tipValue;
-  // console.log(tip)
   const billvalue = bill;
-  // console.log(billvalue)
   const people = numberOfPeople;
 
   const tipAmount = billvalue * (tip / 100);
@@ -52,7 +52,6 @@ function Card() {
         <Form
           className="form_Bill"
           src="./assets/images/icon-dollar.svg"
-          // for='Bill'
           label="Bill"
           type="text"
           id="Bill"
@@ -110,14 +109,13 @@ function Card() {
         <Form
           className="form_Bill"
           src="./assets/images/icon-person.svg"
-          // for='Number of People'
           label="Number of People"
           id="Number of People"
           onChange={handleChangePeople}
         />
         <Result
-          amount={`$${tipAmount}`}
-          total={`$${totalPerson}`}
+          amount={`$${tipAmount.toFixed(2)}`}
+          total={`$${totalPerson ? totalPerson.toFixed(2) : 0}`}
           onClick={handleReset}
         />
       </div>

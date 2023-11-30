@@ -51,6 +51,18 @@
   width: 35%;
 }
 
+@media screen and (max-width: 768px) {
+  .buttons {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .buttons {
+    width: 80%;
+  }
+}
+
 .title_btn {
   display: flex;
   margin-left: 1em;
